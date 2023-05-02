@@ -1,0 +1,54 @@
+.layout { 
+width: 100%;
+display: grid;
+grid-template-columns: repeat(7,1fr)  ;
+grid-template-rows:  auto repeat(6,1fr);
+grid-template-areas:    
+    'menu          menu          menu          menu          menu          menu          menu '
+    'hero          hero          hero          hero          hero          hero          hero'
+    'actividades   actividades   actividades   actividades   actividades   actividades   actividades '  
+    'instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones'
+    'beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios'
+    'contacto      contacto      contacto      contacto      contacto      contacto      contacto'
+    'sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap'
+    'footer        footer        footer        footer        footer        footer        footer';
+}
+
+
+.menu { 
+
+    grid-area: menu;
+
+background: $yellow;
+
+}
+
+.hero { 
+    grid-area: hero;
+    background: black;
+}
+
+.actividades { 
+    grid-area: actividades;
+ 
+}
+.instalaciones { 
+    grid-area: instalaciones;
+}
+
+.beneficios {
+    grid-area: beneficios;
+    background: $blue;
+}
+.contacto{
+    grid-area: contacto;
+    background: $yellow;
+}
+.sitemap{
+    grid-area: sitemap;
+    background: $blue;
+}
+.footer{
+    grid-area: footer;
+    background: $yellow;
+}

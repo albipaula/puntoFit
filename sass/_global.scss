@@ -1,0 +1,50 @@
+//#colors
+
+
+$blue: #31346C;
+$yellow: #FAB95B;
+$grey: #625B60;
+
+//Fonts
+
+$primaryFont: 'Economica', sans-serif;
+
+//Fonts -weight 
+$fontSize: 26px;
+$weightPrimary: 400; 
+$weightSecondary: 700; 
+
+
+body { 
+
+font-family: $primaryFont;
+font-size: $fontSize;
+
+}
+
+h2 { 
+
+font-size: 46px;
+color: $grey;
+text-align: center;
+}
+
+button { 
+
+    background: $yellow;
+    border-radius: 12px;
+    padding: 15px;
+   
+
+    
+}
+a:visited { color: white;}
+
+
+.flex-column {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}

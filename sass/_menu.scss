@@ -1,0 +1,60 @@
+a { 
+text-decoration: none;
+
+}
+
+.menu { 
+
+padding: 20px;
+width: 100%;
+
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80vw;
+margin: 10px;
+padding: 20px;
+
+
+
+img { 
+
+border-radius: 50%;
+
+}
+
+}
+
+
+
+nav ul  { 
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+font-size: $fontSize;
+font-weight: $weightSecondary;
+
+
+}
+
+ul li{
+ text-decoration: none;
+ list-style: none;
+ letter-spacing: 5px;
+ padding: 10px;
+ transition: background-color 1s easeIn 0s;
+ border-radius: 20px;
+ color: $grey;
+
+}
+
+ul li:hover{
+  color: $yellow;
+  background-color: $blue;
+
+  
+}
