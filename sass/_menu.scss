@@ -3,26 +3,27 @@ text-decoration: none;
 
 }
 
-.menu { 
+header {
 
 padding: 20px;
 width: 100%;
-
+box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
 }
 
-.container{
+.header-container{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
-width: 80vw;
-margin: 10px;
-padding: 20px;
 
 
 
 img { 
 
 border-radius: 50%;
+width: 150px;
+
 
 }
 
@@ -30,31 +31,44 @@ border-radius: 50%;
 
 
 
-nav ul  { 
+.menu-nav-container ul  { 
 
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-wrap: wrap;
 font-size: $fontSize;
 font-weight: $weightSecondary;
-
-
-}
-
-ul li{
- text-decoration: none;
- list-style: none;
- letter-spacing: 5px;
- padding: 10px;
- transition: background-color 1s easeIn 0s;
- border-radius: 20px;
- color: $grey;
+padding: 10px;
 
 }
 
-ul li:hover{
+li{
+
+transition: background-color 1s easeIn 0s;
+color: $grey;
+margin: 10px;
+padding: 10px;
+
+}
+
+ li:hover{
   color: $yellow;
+  transition: 0.5s;
+  padding: 10px;
+  box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+border-radius: 24px 24px 24px 24px;
+-webkit-border-radius: 24px 24px 24px 24px;
+-moz-border-radius: 24px 24px 24px 24px;
   background-color: $blue;
 
   
 }
+
+
+@media only screen and (max-width: 600px) {
+
+.menu-nav-container { display:none}
+
+} 

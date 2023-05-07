@@ -1,0 +1,49 @@
+.beneficios { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    img { width:100px}
+
+.container-beneficios{ 
+
+display: flex;
+flex-wrap: wrap;
+width: 100px;
+background: url(/images/wepik-export-20230507032114o4A7.png);
+padding: 30px;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+
+
+div { 
+
+    background: rgba(128, 128, 128, 0.762);
+    box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+    margin: 10px;
+    height: auto;
+}
+
+p { font-size: 32px; line-height: 2rem;}
+
+}
+
+
+}
+

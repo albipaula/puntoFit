@@ -2,7 +2,7 @@
 width: 100%;
 display: grid;
 grid-template-columns: repeat(7,1fr)  ;
-grid-template-rows:  auto repeat(6,1fr);
+grid-template-rows:   repeat(7,auto);
 grid-template-areas:    
     'menu          menu          menu          menu          menu          menu          menu '
     'hero          hero          hero          hero          hero          hero          hero'
@@ -12,25 +12,26 @@ grid-template-areas:
     'contacto      contacto      contacto      contacto      contacto      contacto      contacto'
     'sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap'
     'footer        footer        footer        footer        footer        footer        footer';
+gap: 20px;
 }
 
 
-.menu { 
+.header { 
 
-    grid-area: menu;
-
+grid-area: menu;
 background: $yellow;
 
 }
 
 .hero { 
     grid-area: hero;
-    background: black;
+   
 }
 
 .actividades { 
     grid-area: actividades;
- 
+  
+
 }
 .instalaciones { 
     grid-area: instalaciones;
@@ -38,15 +39,16 @@ background: $yellow;
 
 .beneficios {
     grid-area: beneficios;
-    background: $blue;
+   
+    
 }
 .contacto{
     grid-area: contacto;
-    background: $yellow;
+    background: $blue;
 }
 .sitemap{
     grid-area: sitemap;
-    background: $blue;
+    background: url(/images/wepik-export-20230507032114o4A7.png)
 }
 .footer{
     grid-area: footer;

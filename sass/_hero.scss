@@ -1,17 +1,13 @@
-/* .hero {
-    position: relative;
-    width: 100%; 
-    height: 400px ;
-    text-align: center;
-  
- 
-  }
- */
-.hero-container img{
+ .hero {
+    //position: relative;
+.img-mobile { display: none;}
 
-    height: 800px;
-    object-fit: cover;
-}  
+img { box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);}
+  
+ }
+
   
 /*  .hero-container .content {
     position: absolute; /
@@ -24,3 +20,19 @@
     padding: 20px; 
     font-size: 45px;
   }  */
+;
+  @media  screen and (max-width: 600px) {
+  
+
+.hero { 
+
+
+.img-desktop { display: none; }
+
+.img-mobile{ display: block;}
+
+
+
+}
+
+  }

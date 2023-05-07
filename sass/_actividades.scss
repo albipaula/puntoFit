@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-margin-top: 50px;
+    margin-top: 50px;
 
 .container-actividades { 
 
 display: flex;
 flex-wrap: wrap;
-min-width: 300px;
-background: $yellow;
+min-width: 200px;
+background:url(/images/wepik-export-20230507032114o4A7.png);
 padding: 20px;
-width: 80%;
+width: 90%;
 justify-content: space-around;
 align-items: center;
 
@@ -19,7 +19,14 @@ align-items: center;
 div { 
 
     background: rgba(128, 128, 128, 0.762);
+    box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
     padding: 10px;
+    width: 200px;
     color: white;
     margin: 10px;
 }

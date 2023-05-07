@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/stylesheet.css">
     
@@ -15,102 +16,251 @@
 </head>
 <body class="layout" >
 
-    <header class="menu">
-        <div class="container">
+    <header class="header">
+        <div class="header-container">
             <div class="logo">
-              <img src="/images/logo oval Small.png" alt="logo" width="200px"/>
+              <img src="/images/logo oval Small.png" alt="logo"/>
               </div>
-            <nav>
-              <ul>
-                <a href="/index.html"> <li>Inicio</li></a>
-         
-             <a href="#actividades"> <li>Actividades</li></a>
-              <a href="#beneficios"> <li>Beneficios</li></a>
-              <a href="#instalaciones"> <li>Instalaciones</li></a>
-              <a href="#quienesSomos"> <li>Quienes Somos</li></a>
-              <a href="#contacto"> <li>Contacto</li></a>
-              </ul>
-              </nav>
+            <nav class="menu-nav-container">
+                <ul>
+                    <a href="/index.html"> <li>Inicio</li></a>
+                    <a href="#actividades"> <li>Actividades</li></a>
+                    <a href="#instalaciones"> <li>Instalaciones</li></a>
+                    <a href="#contacto"> <li>Contacto</li></a>
+                </ul>
+            </nav>
+
+        <div class="menu-nav-redesSociales">
+                <ul>
+                    <a href="#instagram">  <li> Instagram</li></a>
+                    <a href="#whatsapp"> <li>Whatsapp</li></a>
+                    <a href="#facebook"> <li>Facebook</li></a>
+                </ul>    
+        </div>
+
         </div>
     </header>
     <section class="hero">
       
             <div class="hero-container">
-                <img src="/images/muscular-brunette-woman-training-with-ropes (1).jpg" alt="Notebook" style="width:100%;">
-                <div class="content">
+                <img class="img-desktop" src="/images/Frame 2.png" alt="Notebook" style="width:100%;">
+                <img class="img-mobile" src="/images/Frame 3.png" alt="">
+               <img src="/images/" alt="">
+             <!--    <div class="content">
                   <h1>CENTRO DE ENTRENAMIENTO</h1>
                   <p>SUMA UN ESPACIO PARA VOS</p>
                   <button> <a href="#contacto"> INSCRIBITE AHORA</button></a>
-                </div>
+                </div> -->
               </div>
         
         
     </section>
-    <section class="actividades">
-        <h2>ACTIVIDADES</h2>
+
+    
+    <section class="actividades" id="actividades">
+        <h2>actividades</h2>
+
+        <div>
+        <a href="https://wa.link/pqckt9" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    </div>
 
         <div class="container-actividades" >
-
             <div class="flex-column" >
-            <img src="/images/dumbbell-2.png" alt="" width="50%">    
+                <img src="/images/pilates-aereo.png" alt="" width="50%">    
+                    
+                    <h3>pilates aereo</h3>
                 
-                <h3>FUNCIONAL</h3>
+                </div>
+             
+            
+            <div class="flex-column" >
+                <img src="/images/pilates (2).png" alt="" width="50%">    
+                    
+                    <h3>pilates mat</h3>
+                
+                </div>
+
+                <div class="flex-column" >
+                    <img src="/images/pilates.png" alt="" width="50%">    
+                        
+                        <h3>pilates reformer</h3>
+                    
+                    </div>    
+
+                    <div class="flex-column" >
+                        <img src="/images/pilates-tower.png" alt="" width="50%">    
+                            
+                            <h3>pilates studio</h3>
+                        
+                        </div>
+            <div class="flex-column" >
+            <img src="/images/push-ups.png" alt="" width="50%">    
+                
+                <h3>funcional</h3>
             
             </div>
             <div class="flex-column" >
-                <img src="/images/dumbbell-2.png" alt="" width="50%">    
+                <img src="/images/weightlifting (1).png" alt="" width="50%">    
                     
-                    <h3>CROSS TRAINNING</h3>
+                    <h3>cross-training</h3>
                 
                 </div>
-                <div class="flex-column" >
-                    <img src="/images/dumbbell-2.png" alt="" width="50%">    
-                        
-                        <h3>PILATES STUDIO</h3>
-                    
-                    </div>
+              
             <div class="flex-column" >
-                <img src="/images/dumbbell-2.png" alt="" width="50%">    
+                <img src="/images/lunges.png" alt="" width="50%">    
                     
-                    <h3>GAP</h3>
+                    <h3>gap</h3>
                 
                 </div>
                 <div class="flex-column" >
-                    <img src="/images/dumbbell-2.png" alt="" width="50%">    
+                    <img src="/images/trampoline.png" alt="" width="50%">    
                         
-                        <h3>JUMPING FITNESS</h3>
+                        <h3>jumping fitness</h3>
                     
                     </div>
-                    <div class="flex-column" >
-                        <img src="/images/dumbbell-2.png" alt="" width="50%">    
-                            
-                            <h3>FUNCIONAL</h3>
-                        
-                        </div>
-                        
+                   
+
+                            <div class="flex-column" >
+                                <img src="/images/yoga.png" alt="" width="50%">    
+                                    
+                                    <h3>hipopresivos/ stretching</h3>
+                                
+                                </div>     
 
 
         </div>
 
     </section>
-    <section class="instalaciones">
+    <section class="instalaciones" id="instalaciones">
         <h2>instalaciones</h2>
+
+        <div class="container-instalaciones" >
+
+            <div class="flex-column" >
+            <img src="/images/shower.png" alt="" width="50%">    
+                
+                <h3>duchas</h3>
+            
+            </div>
+            <div class="flex-column" >
+                <img src="/images/gym (2).png" alt="" width="30%" >    
+                    
+                    <h3>punto break</h3>
+                
+                </div>
+               
+            <div class="flex-column" >
+                <img src="/images/plan.png" alt="" width="50%">    
+                    
+                    <h3>asesoramiento Nutricional</h3>
+                
+                </div>
+                <div class="flex-column" >
+                    <img src="/images/protein.png" alt="" width="50%">    
+                        
+                        <h3>sumplementos nutricionales</h3>
+                    
+                    </div>
+                    
+                     
+                  
+
+        </div>
+
     </section>
-    <section class="beneficios">
+    <section class="beneficios" id="beneficios">
         <h2>beneficios</h2>
+<div class="container-beneficios" >
+        <div class="flex-column" >
+            <img src="/images/calendar.png" alt="" width="50%">    
+                
+                <h3>programa tus clases</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio.</p>
+            
+            </div>
+    <div class="flex-column" >
+        <img src="/images/stationary-bike (1).png" alt="" width="50%">    
+            
+            <h3>uso libre de bicicleta fija</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio.</p>
+        </div>
+        <div class="flex-column" >
+            <img src="/images/app-celu.png" alt="" width="50%">    
+                
+                <h3>autogestion de tus clases</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio.</p>
+
+            </div>
+        </div> 
     </section>
     <section class="contacto">
         <h2>contacto</h2>
+        <div class="contacto-container" id="contacto">
+
+            
+            <div class="contacto-container-form">
+                
+                <div>
+                <label for="text" class="form-text-label"></label>
+                <input type="text" class="form-control" name="text" access="false" id="text" placeholder="NOMBRE">
+            </div>    
+            <div class="form-text form-group field-email">
+                <label for="email" class="form-text-label"></label>
+                <input type="email" class="form-control" name="email" access="false" id="text" placeholder="EMAIL" >
+            </div>
+            <div class="form-textarea form-group field-textarea">
+                <label for="textarea" class="form-textarea-label"></label>
+                <textarea type="textarea" class="form-text-area" name="textarea" access="false" id="textarea" placeholder="DEJANOS TU CONSULTA..." ></textarea>
+            </div>
+            <div class="form-button form-group field-button">
+                <button type="button" class="btn-default btn" name="button" access="false"  id="button">Enviar</button>
+            </div>
+            
+        </div>
+        <div class="form-logo" > <img src="/images/logo oval.png" alt="" width="200px" height="auto"></div>
+        </div>
+
     </section>
     <section class="sitemap">
-        <h2>siteMap</h2>
+  
+
+        <article>
+            <ul>
+                <h4>quienes somos</h4>
+                <li>mision</li>
+                <li>vision</li>
+            </ul>
+        </article>
+        <article>
+            <h4>actividades</h4>
+            <li>pilates</li>
+            <li>pilates mat</li>
+            <li>pilates studio</li>
+            <li>pilates reformer</li>
+            <li>cross training</li>
+            <li>jumping fitness</li>
+            <li>entrenamiento funcional</li>
+            <li>hipopresivos / stretching</li>
+
+        </article>
+        <article>
+            <ul>
+            <h4>redes</h4>
+                <a href="#instagram">  <li> Instagram</li></a>
+                <a href="#whatsapp"> <li>Whatsapp</li></a>
+                <a href="#facebook"> <li>Facebook</li></a>
+            </ul>    
+        </article>
     </section>
     <section class="footer">
-        <h2>footer</h2>
+         <img src="/images/logo oval.png" alt="" width="50px" height="auto">
+        <p>Derechos Reservados Punto Fit 2023</p>
+
+        
     </section>
  
 
-
+	
     
 </body>
 </html>

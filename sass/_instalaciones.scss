@@ -1,0 +1,47 @@
+.instalaciones { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: max-content;
+
+    img{ width: 150px;}
+
+
+.container-instalaciones{ 
+
+display: flex;
+flex-wrap: wrap;
+width: 100px;
+background:url(/images/wepik-export-20230507035728SmuG.png);
+padding: 30px;
+width: 100%;
+height: 100%;
+justify-content: space-around;
+align-items: center;
+
+
+div { 
+
+    background: rgba(128, 128, 128, 0.762);
+    box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+    border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    margin: 10px;
+    height: 300px;
+}
+
+}
+
+
+}
+
+
+
+
