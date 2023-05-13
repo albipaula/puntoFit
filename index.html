@@ -225,6 +225,43 @@
         </div>
 
     </section>
+
+    <section class="galeria-clases">
+       
+        <div class="slideshow-container slideshow-desktop">
+          <div class="mySlides1">
+            <img src="/images/galeria/PHOTO-2023-04-19-10-04-57 2.jpg" style="width:100%" >
+          </div>
+        
+          <div class="mySlides1">
+            <img src="/images/galeria/PHOTO-2023-04-19-10-04-56.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="/images/galeria/PHOTO-2023-04-19-10-04-57 2.jpg" style="width:100%" >
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <div class="slideshow-container slideshow-mobile">
+            <div class="mySlides2">
+              <img src="/images/galeria/PHOTO-2023-04-19-10-03-48 3.jpg"style="width:100%">
+            </div>
+          
+            <div class="mySlides2">
+              <img src="img_band_la.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides2">
+              <img src="/images/galeria/PHOTO-2023-04-19-10-03-48 3.jpg" style="width:100%">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          
+          </div>
+    </section>
     <section class="instalaciones" id="instalaciones">
         <h2>instalaciones</h2>
 
@@ -343,6 +380,14 @@
             </div>
         </div> 
     </section>
+
+    <section class="galeria flex-column">
+
+
+     
+
+
+    </section>
     <section class="contacto">
         <h2>contacto</h2>
         <div class="contacto-container" id="contacto">
@@ -418,7 +463,27 @@
     </section>
  
 
-	
+	<script>
+        let slideIndex = [1,1];
+        let slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          let i;
+          let x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
    
 </body>
 </html>

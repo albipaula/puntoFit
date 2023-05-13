@@ -2,15 +2,16 @@
 width: 100%;
 display: grid;
 grid-template-columns: repeat(7,1fr)  ;
-grid-template-rows:   repeat(10,auto);
+grid-template-rows:   repeat(12,auto);
 grid-template-areas:    
     'menu          menu          menu          menu          menu          menu          menu '
     'hero          hero          hero          hero          hero          hero          hero'
     'actividades   actividades   actividades   actividades   actividades   actividades   actividades '  
+    'galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases '
     'instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones'
     'planes planes planes planes planes planes planes' 
     'beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios'
-    
+    'galeria galeria galeria galeria galeria galeria galeria'
     'contacto      contacto      contacto      contacto      contacto      contacto      contacto'
    'feed feed feed feed feed feed feed'
     'sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap'
@@ -36,6 +37,7 @@ background: $yellow;
   
 
 }
+.galeria-clases { grid-area: galeria-clases;}
 .instalaciones { 
     grid-area: instalaciones;
 }
@@ -45,8 +47,12 @@ background: $yellow;
 }
 .beneficios {
     grid-area: beneficios;
-   
+
     
+}
+.galeria { 
+
+    grid-area: galeria;
 }
 .contacto{
     grid-area: contacto;
