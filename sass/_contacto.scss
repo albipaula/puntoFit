@@ -1,9 +1,17 @@
 
+::placeholder { 
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    }
 
-
-::placeholder { text-align: center; font-size: 20px; padding: 10px;}
-
-button { font-size: 20px; color: white; text-align: center; text-transform: uppercase;}
+button { 
+    font-size: 20px; 
+    color: white; 
+    text-align: center;
+     text-transform: uppercase;
+    }
+    
 input, textarea { 
     
 width: 400px;
@@ -36,7 +44,7 @@ button { margin: 10px;  box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
     align-items: center;
     width: 100%;
 
-img { width: 300px; 
+img { width: 200px; 
     border-radius:50%;}
 
 }

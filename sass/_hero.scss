@@ -1,5 +1,5 @@
  .hero {
-    //position: relative;
+   /*  position: relative; */
 .img-mobile { display: none;}
 
 img { box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
@@ -9,18 +9,17 @@ img { box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
  }
 
   
-/*  .hero-container .content {
-    position: absolute; /
-    bottom: -250px; 
-    right: 50px;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 50%;
-    padding: 20px; 
-    font-size: 45px;
-  }  */
-;
+/*   .hero-content {
+
+        position: relative;
+        font-size: 18px;
+    width: 200px;
+  bottom: 160px;
+  left: 5%;
+        color: white;
+        
+  }  
+ */
   @media  screen and (max-width: 600px) {
   
 

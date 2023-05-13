@@ -1,0 +1,92 @@
+.planes {
+   
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .planes-container { 
+
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+    gap: 20px
+;
+  }
+  
+  .card {
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 30px 20px 59px 20px;
+    border: 0;
+    background: url(/images/wepik-export-20230507035728SmuG.png);
+    box-shadow: 3px 15px 30px #31346C(171, 86, 252, 0.75);
+
+  &:hover {transform: scale(1.05);
+    opacity: .99;
+    transition: all 0.5s ease-in-out;}
+  }
+
+  .card2, .card4 {background: $blue;}
+  .card1,.card3, .card5 { background: $yellow;}
+
+  .card h3 {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 0px;
+  }
+  
+  .card h4 {
+    color: white;
+    font-size: 40px;
+    margin-top: 53px;
+  }
+  
+  .card h2 {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 80px;
+    font-weight: 900;
+    position: absolute;
+    margin-left: -6px;
+    pointer-events: none;
+  }
+  
+  .card hr {
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    margin-top: 53px;
+  }
+  
+  .card p:first-of-type {
+    margin-top: 40px;
+  }
+  
+  .card p {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .card p:nth-of-type(2) {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .card a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 85px 11px 85px;
+    background-color:$grey ;
+   
+    border-radius: 6px;
+    transition: background-color 0.5s;
+  }
+  
+  .card a:hover {
+    background-color: $yellow;
+  }
+  
+
+ 
+  

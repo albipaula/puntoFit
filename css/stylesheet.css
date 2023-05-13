@@ -53,6 +53,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 2rem;
 }
 
 li {
@@ -93,9 +94,13 @@ li {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(7, auto);
-  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
+  grid-template-rows: repeat(10, auto);
+  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "feed feed feed feed feed feed feed" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
   gap: 20px;
+}
+
+.feed {
+  grid-area: feed;
 }
 
 .header {
@@ -113,6 +118,10 @@ li {
 
 .instalaciones {
   grid-area: instalaciones;
+}
+
+.planes {
+  grid-area: planes;
 }
 
 .beneficios {
@@ -156,6 +165,14 @@ header {
   width: 150px;
 }
 
+.menu-nav-redesSociales ul {
+  display: flex;
+  flex-direction: row;
+}
+.menu-nav-redesSociales ul img {
+  width: 40px;
+}
+
 .menu-nav-container ul {
   display: flex;
   justify-content: space-around;
@@ -190,6 +207,9 @@ li:hover {
     display: none;
   }
 }
+.hero {
+  /*  position: relative; */
+}
 .hero .img-mobile {
   display: none;
 }
@@ -199,17 +219,17 @@ li:hover {
   -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
 }
 
-/*  .hero-container .content {
-    position: absolute; /
-    bottom: -250px; 
-    right: 50px;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 50%;
-    padding: 20px; 
-    font-size: 45px;
-  }  */
+/*   .hero-content {
+
+        position: relative;
+        font-size: 18px;
+    width: 200px;
+  bottom: 160px;
+  left: 5%;
+        color: white;
+
+  }  
+ */
 @media screen and (max-width: 600px) {
   .hero .img-desktop {
     display: none;
@@ -227,7 +247,6 @@ li:hover {
 .actividades .container-actividades {
   display: flex;
   flex-wrap: wrap;
-  min-width: 200px;
   background: url(/images/wepik-export-20230507032114o4A7.png);
   padding: 20px;
   width: 90%;
@@ -242,10 +261,60 @@ li:hover {
   border-radius: 24px 24px 24px 24px;
   -webkit-border-radius: 24px 24px 24px 24px;
   -moz-border-radius: 24px 24px 24px 24px;
-  padding: 10px;
   width: 200px;
   color: white;
-  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-actividades div {
+    width: 200px;
+  }
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  margin: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+.flip-card-back li {
+  line-height: 0.5;
+  color: white;
+  transition: 0.5s;
+  padding: 10px;
+  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 24px 24px 24px 24px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  -moz-border-radius: 24px 24px 24px 24px;
 }
 
 .instalaciones {
@@ -282,6 +351,103 @@ li:hover {
   color: white;
   margin: 10px;
   height: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .container-instalaciones div {
+    width: 30px;
+    height: min-content;
+  }
+}
+.planes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.planes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  min-width: 200px;
+  border-radius: 10px;
+  padding: 30px 20px 59px 20px;
+  border: 0;
+  background: url(/images/wepik-export-20230507035728SmuG.png);
+  box-shadow: 3px 15px 30px #31346C 171, 86, 252, 0.75;
+}
+.card:hover {
+  transform: scale(1.05);
+  opacity: 0.99;
+  transition: all 0.5s ease-in-out;
+}
+
+.card2, .card4 {
+  background: #31346C;
+}
+
+.card1, .card3, .card5 {
+  background: #FAB95B;
+}
+
+.card h3 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+
+.card h4 {
+  color: white;
+  font-size: 40px;
+  margin-top: 53px;
+}
+
+.card h2 {
+  color: rgba(255, 255, 255, 0.15);
+  font-size: 80px;
+  font-weight: 900;
+  position: absolute;
+  margin-left: -6px;
+  pointer-events: none;
+}
+
+.card hr {
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-top: 53px;
+}
+
+.card p:first-of-type {
+  margin-top: 40px;
+}
+
+.card p {
+  color: white;
+  font-size: 24px;
+}
+
+.card p:nth-of-type(2) {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.card a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 85px 11px 85px;
+  background-color: #625B60;
+  border-radius: 6px;
+  transition: background-color 0.5s;
+}
+
+.card a:hover {
+  background-color: #FAB95B;
 }
 
 .beneficios {
@@ -374,7 +540,7 @@ button {
   width: 100%;
 }
 .contacto-container img {
-  width: 300px;
+  width: 200px;
   border-radius: 50%;
 }
 
