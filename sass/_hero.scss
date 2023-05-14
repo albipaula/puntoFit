@@ -38,20 +38,6 @@ button {
 
 
 
- 
-
-  
-/*   .hero-content {
-
-        position: relative;
-        font-size: 18px;
-    width: 200px;
-  bottom: 160px;
-  left: 5%;
-        color: white;
-        
-  }  
- */
   @media  screen and (max-width: 600px) {
   
 
@@ -60,8 +46,8 @@ button {
   button { 
 
     position: absolute;
-    top: 92%;
-    left: 50%;}
+    top: 89%;
+    left: 50%; padding: 5px; }
 .img-desktop { display: none; }
 
 .img-mobile{ display: block;}

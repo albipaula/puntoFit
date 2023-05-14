@@ -211,8 +211,23 @@ li:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
   .menu-nav-container {
     display: none;
+  }
+  .header-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-container .menu-nav-redesSociales ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .hero {
@@ -244,22 +259,12 @@ li:hover {
   text-align: center;
 }
 
-/*   .hero-content {
-
-        position: relative;
-        font-size: 18px;
-    width: 200px;
-  bottom: 160px;
-  left: 5%;
-        color: white;
-
-  }  
- */
 @media screen and (max-width: 600px) {
   .hero button {
     position: absolute;
-    top: 92%;
+    top: 89%;
     left: 50%;
+    padding: 5px;
   }
   .hero .img-desktop {
     display: none;
