@@ -31,7 +31,6 @@ h4 {
 }
 
 img {
-  width: 100%;
   height: auto;
 }
 
@@ -289,6 +288,10 @@ li:hover {
   align-items: center;
 }
 .actividades .container-actividades div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: rgba(128, 128, 128, 0.762);
   box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
@@ -296,23 +299,25 @@ li:hover {
   border-radius: 24px 24px 24px 24px;
   -webkit-border-radius: 24px 24px 24px 24px;
   -moz-border-radius: 24px 24px 24px 24px;
-  width: 200px;
+  width: 230px;
   color: white;
 }
 
 @media screen and (max-width: 600px) {
   .container-actividades div {
-    width: 200px;
+    width: 250px;
   }
 }
 .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 400px;
   height: 350px;
-  background-color: red;
   animation-name: example;
   animation-duration: 4s;
   margin: 20px;
+}
+.flip-card h3 {
+  line-height: 0.2;
 }
 
 .flip-card-inner {
