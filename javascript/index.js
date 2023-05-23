@@ -1,8 +1,22 @@
-/* 'use strict'
-const gallery = document.querySelector('.gallery');
-const feed= document.querySelector('.contenedor-gallery');
-const next= document.querySelector('#next'); 
-const next= document.querySelector('#prev'); 
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
 
-const token = 'IGQVJXdDlncGtfNTRBZAk92NjlmaktaZAld1S05xY0Q1dExVWEF4SWdRS3NUeUJXYUZAxNTFiM3NVc3FqZAXg4TWQ4dUJ0TWNOUGVLV1M0UmtmUmtpNFUyYzhXc1k2eEQ2UDQwX3lEcjlMcGhzNEctc1RqaAZDZD';
-const url= 'https://graph.instagram.com/v11.0/10218560180051171/media'; */
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))

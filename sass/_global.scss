@@ -14,7 +14,7 @@ $fontSize: 26px;
 $weightPrimary: 400; 
 $weightSecondary: 700; 
 
-html {
+body{
 
 box-sizing: border-box;
 font-family: $primaryFont;
@@ -25,7 +25,6 @@ font-display: swap;
 
 body {
 
-margin: 0;
 overflow-x: hidden;
 
 }
@@ -39,7 +38,7 @@ text-transform: uppercase;
 
 h3 {
 
-    font-size: 1rem;
+    font-size: 28px;
     color: white;
     text-align: center;
     text-transform: uppercase;
