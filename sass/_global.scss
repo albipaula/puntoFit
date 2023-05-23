@@ -20,6 +20,7 @@ box-sizing: border-box;
 font-family: $primaryFont;
 font-size: $fontSize;
 scroll-behavior: smooth;
+font-display: swap;
 }
 
 body {
@@ -54,7 +55,7 @@ color: $blue;
 
 img {
 
-
+    max-width: 100%;
     height: auto;
 
 

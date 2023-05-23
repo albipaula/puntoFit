@@ -3,6 +3,7 @@ html {
   font-family: "Economica", sans-serif;
   font-size: 26px;
   scroll-behavior: smooth;
+  font-display: swap;
 }
 
 body {
@@ -31,6 +32,7 @@ h4 {
 }
 
 img {
+  max-width: 100%;
   height: auto;
 }
 
