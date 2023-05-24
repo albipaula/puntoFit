@@ -18,5 +18,10 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 
+/* POPOVER BOOSTRAP */
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+$("[data-toggle=popover]").popover({
+    container: 'button' // body width
+});

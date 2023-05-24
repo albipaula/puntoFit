@@ -96,7 +96,7 @@ li {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(12, auto);
-  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria galeria galeria galeria galeria galeria galeria" "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "feed feed feed feed feed feed feed" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
+  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "horarios      horarios      horarios     horarios    horarios   horarios  horarios" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria galeria galeria galeria galeria galeria galeria" "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "feed feed feed feed feed feed feed" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
   gap: 20px;
 }
 
@@ -111,6 +111,24 @@ li {
 
 .hero {
   grid-area: hero;
+}
+
+.horarios {
+  grid-area: horarios; /* background: url(/images/bg-yellow.webp); */
+  height: auto;
+}
+.horarios .row {
+  padding: 10px;
+  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 24px 24px 24px 24px;
+  -webkit-border-radius: 24px 24px 24px 24px;
+  -moz-border-radius: 24px 24px 24px 24px;
+  background-color: #31346C;
+}
+.horarios .row li {
+  color: #FAB95B;
 }
 
 .actividades {
