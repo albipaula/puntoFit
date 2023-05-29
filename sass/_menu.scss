@@ -16,19 +16,15 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 
-
+.logo img { border-radius: 50%;}
 
 img { 
-
-border-radius: 50%;
 width: 150px;
-
-
 }
 
 }
 
-.menu-nav-redesSociales ul { img { width: 40px;} display: flex; flex-direction: row;} 
+.menu-nav-redesSociales ul {   img { width: 40px; } display: flex; flex-direction: row;} 
 
 .menu-nav-container ul  { 
 

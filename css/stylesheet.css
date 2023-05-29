@@ -188,8 +188,10 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-.header-container img {
+.header-container .logo img {
   border-radius: 50%;
+}
+.header-container img {
   width: 150px;
 }
 
