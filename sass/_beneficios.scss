@@ -4,7 +4,10 @@
     align-items: center;
     margin-top: 50px;
 
-    img { width:100px}
+    img { width:100px; padding-bottom: 10px;}
+
+.flex-column { justify-content: center;align-items: center; min-height: 400px; p { margin: 20px; text-align: center;} }
+
 
 .container-beneficios{ 
 
