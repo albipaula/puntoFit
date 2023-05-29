@@ -158,6 +158,7 @@ li {
 .contacto {
   grid-area: contacto;
   background: #31346C;
+  padding: 20px;
 }
 
 .sitemap {
@@ -698,7 +699,7 @@ button {
 }
 
 input, textarea {
-  width: 400px;
+  width: 300px;
   height: 50px;
   margin: 10px;
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
@@ -710,7 +711,7 @@ input, textarea {
 }
 
 .form-text-area {
-  height: 300px;
+  height: 200px;
 }
 
 button {
@@ -723,20 +724,22 @@ button {
   -moz-border-radius: 24px 24px 24px 24px;
 }
 
-.contacto-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
 .contacto-container img {
   width: 200px;
   border-radius: 50%;
 }
 
-.contacto-container-form div {
+.contacto-container-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.contacto-container-form form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
