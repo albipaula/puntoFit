@@ -25,3 +25,37 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 $("[data-toggle=popover]").popover({
     container: 'button' // body width
 });
+
+
+function calcularIMC() {
+  var nombre = document.getElementById('nombre').value;
+  var alturaEnCentimetros = parseInt(document.getElementById('altura').value);
+  var alturaEnMetros = alturaEnCentimetros / 100;
+  var pesoEnKilos = parseInt(document.getElementById('peso').value);
+
+  var imc = Math.round(pesoEnKilos / (alturaEnMetros * alturaEnMetros));
+  var clasificacion;
+  
+  if (imc < 18.5) {
+    clasificacion = 'estás muy delgado';
+  } else if (imc < 25) {
+    clasificacion = 'estás saludable';
+  } else {
+    clasificacion = 'tienes sobrepeso';
+  }
+  /* Consejo:
+  
+  */
+  const respuesta = 'Tu IMC es ' + imc + ' Estado: ' + clasificacion;
+/*   alert(respuesta); */
+const resultado = document.getElementById('resultado');
+resultado.innerHTML = respuesta ; 
+}
+
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

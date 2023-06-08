@@ -95,8 +95,8 @@ li {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(12, auto);
-  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "horarios      horarios      horarios     horarios    horarios   horarios  horarios" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria galeria galeria galeria galeria galeria galeria" "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "feed feed feed feed feed feed feed" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
+  grid-template-rows: repeat(13, auto);
+  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "horarios      horarios      horarios     horarios    horarios   horarios  horarios" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria       galeria       galeria       galeria        galeria        galeria        galeria" "imc           imc           imc           imc             imc          imc           imc      " "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
   gap: 20px;
 }
 
@@ -153,6 +153,10 @@ li {
 
 .galeria {
   grid-area: galeria;
+}
+
+.imc {
+  grid-area: imc;
 }
 
 .contacto {
