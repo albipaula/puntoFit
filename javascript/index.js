@@ -46,10 +46,9 @@ function calcularIMC() {
   /* Consejo:
   
   */
-  const respuesta = 'Tu IMC es ' + imc + ' Estado: ' + clasificacion;
-/*   alert(respuesta); */
+  const respuesta =  nombre.toUpperCase() + ' Tu IMC es ' + imc + ' , ' + clasificacion;
 const resultado = document.getElementById('resultado');
-resultado.innerHTML = respuesta ; 
+resultado.innerHTML = respuesta; 
 }
 
 
