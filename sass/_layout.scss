@@ -20,11 +20,11 @@ grid-template-areas:
 gap: 50px;
 }
 
-.feed { grid-area: feed;}
+
 .header { 
 
-grid-area: menu;
-background: $yellow;
+    grid-area: menu;
+    background: $yellow;
 
 }
 
@@ -34,19 +34,21 @@ background: $yellow;
    
 }
 
-.horarios { grid-area: horarios; /* background: url(/images/bg-yellow.webp); */height: auto;  .row{
-   
+.horarios { 
+    grid-area: horarios; /* background: url(/images/bg-yellow.webp); */
+    height: auto;  
+        .row{
     
-    padding: 10px;
-    box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-  border-radius: 24px 24px 24px 24px;
-  -webkit-border-radius: 24px 24px 24px 24px;
-  -moz-border-radius: 24px 24px 24px 24px;
-    background-color: $blue;
-  
-    li { color: $yellow; }
+            padding: 10px;
+            box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+            border-radius: 24px 24px 24px 24px;
+            -webkit-border-radius: 24px 24px 24px 24px;
+            -moz-border-radius: 24px 24px 24px 24px;
+            background-color: $blue;
+
+    li { color: $yellow; pointer-events: none; }
     h2 {color: white;}
   }  }
 

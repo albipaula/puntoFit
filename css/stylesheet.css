@@ -100,10 +100,6 @@ li {
   gap: 50px;
 }
 
-.feed {
-  grid-area: feed;
-}
-
 .header {
   grid-area: menu;
   background: #FAB95B;
@@ -130,6 +126,7 @@ li {
 }
 .horarios .row li {
   color: #FAB95B;
+  pointer-events: none;
 }
 .horarios .row h2 {
   color: white;

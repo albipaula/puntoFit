@@ -111,4 +111,13 @@ list-style: none;
   .whatsapp-icon {
     margin-top:23px;
   }
-.footer { font-size: 23px; text-align: center; color: $grey; img { width: 80px; border-radius: 50%; padding: 15px;}}
+.footer { 
+        font-size: 23px;
+        text-align: center; 
+        color: $grey; 
+
+            img { width: 80px; 
+                border-radius: 50%; 
+                padding: 15px;
+            }
+        }
