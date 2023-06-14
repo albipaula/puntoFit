@@ -17,7 +17,7 @@ grid-template-areas:
     'contacto      contacto      contacto      contacto      contacto      contacto      contacto'
     'sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap'
     'footer        footer        footer        footer        footer        footer        footer';
-gap: 20px;
+gap: 50px;
 }
 
 .feed { grid-area: feed;}
@@ -30,6 +30,7 @@ background: $yellow;
 
 .hero { 
     grid-area: hero;
+    justify-content: center;
    
 }
 
@@ -46,7 +47,7 @@ background: $yellow;
     background-color: $blue;
   
     li { color: $yellow; }
-    
+    h2 {color: white;}
   }  }
 
 .actividades { 

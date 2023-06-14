@@ -11,7 +11,7 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #625B60;
   text-align: center;
   text-transform: uppercase;
@@ -97,7 +97,7 @@ li {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(13, auto);
   grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "horarios      horarios      horarios     horarios    horarios   horarios  horarios" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria       galeria       galeria       galeria        galeria        galeria        galeria" "imc           imc           imc           imc             imc          imc           imc      " "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
-  gap: 20px;
+  gap: 50px;
 }
 
 .feed {
@@ -111,6 +111,7 @@ li {
 
 .hero {
   grid-area: hero;
+  justify-content: center;
 }
 
 .horarios {
@@ -129,6 +130,9 @@ li {
 }
 .horarios .row li {
   color: #FAB95B;
+}
+.horarios .row h2 {
+  color: white;
 }
 
 .actividades {
@@ -259,7 +263,7 @@ li:hover {
 .hero {
   position: relative;
   width: 100%;
-  max-width: 1800px;
+  max-width: 100%;
   /*  position: relative; */
 }
 .hero .img-mobile {
