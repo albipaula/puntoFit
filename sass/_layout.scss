@@ -6,7 +6,6 @@ grid-template-rows:   repeat(13,auto);
 grid-template-areas:    
     'menu          menu          menu          menu          menu          menu          menu '
     'hero          hero          hero          hero          hero          hero          hero'
-    'horarios      horarios      horarios     horarios    horarios   horarios  horarios'
     'actividades   actividades   actividades   actividades   actividades   actividades   actividades '  
     'galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases '
     'instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones'
@@ -36,12 +35,10 @@ gap: 50px;
 
 .horarios { 
     grid-area: horarios; /* background: url(/images/bg-yellow.webp); */
-    height: auto;  
+    height: auto; 
+    margin-top: 30px; 
         .row{
             padding: 10px;
-            box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
             border-radius: 24px 24px 24px 24px;
             -webkit-border-radius: 24px 24px 24px 24px;
             -moz-border-radius: 24px 24px 24px 24px;
@@ -72,9 +69,12 @@ gap: 50px;
 .galeria { 
 
     grid-area: galeria;
+    
 }
 .imc { 
     grid-area: imc;
+
+    .imc-container { display: flex;flex-direction: column; align-items: center;}
 }
 .contacto{
     grid-area: contacto;

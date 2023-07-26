@@ -96,7 +96,7 @@ li {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(13, auto);
-  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "horarios      horarios      horarios     horarios    horarios   horarios  horarios" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria       galeria       galeria       galeria        galeria        galeria        galeria" "imc           imc           imc           imc             imc          imc           imc      " "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
+  grid-template-areas: "menu          menu          menu          menu          menu          menu          menu " "hero          hero          hero          hero          hero          hero          hero" "actividades   actividades   actividades   actividades   actividades   actividades   actividades " "galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases " "instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones" "planes planes planes planes planes planes planes" "beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios" "galeria       galeria       galeria       galeria        galeria        galeria        galeria" "imc           imc           imc           imc             imc          imc           imc      " "contacto      contacto      contacto      contacto      contacto      contacto      contacto" "sitemap       sitemap       sitemap       sitemap       sitemap       sitemap       sitemap" "footer        footer        footer        footer        footer        footer        footer";
   gap: 50px;
 }
 
@@ -113,12 +113,10 @@ li {
 .horarios {
   grid-area: horarios; /* background: url(/images/bg-yellow.webp); */
   height: auto;
+  margin-top: 30px;
 }
 .horarios .row {
   padding: 10px;
-  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
   border-radius: 24px 24px 24px 24px;
   -webkit-border-radius: 24px 24px 24px 24px;
   -moz-border-radius: 24px 24px 24px 24px;
@@ -158,6 +156,11 @@ li {
 
 .imc {
   grid-area: imc;
+}
+.imc .imc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contacto {
@@ -258,6 +261,7 @@ li:hover {
   }
 }
 .hero {
+  margin-top: -50px;
   position: relative;
   width: 100%;
   max-width: 100%;
@@ -601,9 +605,14 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1400px;
+  width: 100%;
   position: relative;
-  margin: auto;
+}
+
+.slideshow-desktop {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /* Next & previous buttons */
@@ -623,8 +632,8 @@ img {
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
+.prev {
+  right: 98%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -633,9 +642,6 @@ img {
   color: #FAB95B;
 }
 
-.gallery {
-  width: 100%;
-}
 .gallery img {
   max-width: 100%;
   height: auto;
@@ -743,6 +749,12 @@ button {
   -moz-border-radius: 24px 24px 24px 24px;
 }
 
+.contacto-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
 .contacto-container img {
   width: 200px;
   border-radius: 50%;
@@ -750,6 +762,7 @@ button {
 
 .contacto-container-form {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
@@ -759,6 +772,13 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.form-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 600px) {

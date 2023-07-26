@@ -3,15 +3,25 @@
 
 @media  screen and (min-width: 601px) { .slideshow-mobile { display: none;} } 
 
+
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1400px;
+  width:100%;
   position: relative;
-  margin: auto;
 
+
+
+
+
+}
+
+.slideshow-desktop { 
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
 }
 
@@ -32,8 +42,8 @@ img {vertical-align: middle;}
 }
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
+.prev {
+  right: 98%;
   border-radius: 3px 0 0 3px;
 }
 
@@ -42,7 +52,7 @@ img {vertical-align: middle;}
     color: $yellow;}
 
 
-    .gallery{  width: 100%;
+    .gallery{  
    
     img {  max-width: 100%;
         height: auto;}
