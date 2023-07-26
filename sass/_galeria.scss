@@ -1,5 +1,6 @@
 
-@media  screen and (max-width: 600px) { .slideshow-desktop { display: none;} } 
+@media  screen and (max-width: 600px) { .slideshow-desktop { display: none;}
+} 
 
 @media  screen and (min-width: 601px) { .slideshow-mobile { display: none;} } 
 
@@ -43,7 +44,7 @@ img {vertical-align: middle;}
 
 /* Position the "next button" to the right */
 .prev {
-  right: 98%;
+  right: 86%;
   border-radius: 3px 0 0 3px;
 }
 
