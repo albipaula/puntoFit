@@ -449,7 +449,7 @@ h3 { line-height: 0.2;}
 }
 
 .card {
-  min-width: 200px;
+  min-width: 350px;
   border-radius: 10px;
   padding: 30px 20px 59px 20px;
   border: 0;
@@ -479,7 +479,7 @@ h3 { line-height: 0.2;}
 
 .card h4 {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 53px;
 }
 
