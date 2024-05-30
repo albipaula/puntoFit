@@ -14,12 +14,13 @@ flex-wrap: wrap;
   }
   
   .card {
-    min-width: 350px;
+    min-width: 100px;
     border-radius: 10px;
     padding: 30px 20px 59px 20px;
     border: 0;
     background: url(/images/wepik-export-20230507035728SmuG.png);
     box-shadow: 3px 15px 30px #31346C(171, 86, 252, 0.75);
+    
 
   &:hover {transform: scale(1.05);
     opacity: .99;

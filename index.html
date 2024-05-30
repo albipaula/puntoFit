@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/stylesheet.css">
     
@@ -29,14 +32,15 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-              <img src="/images/logo oval Small.webp" alt="logo" >
+             <a href="./index.html"> <img src="/images/logo oval Small.webp" width="100px" alt="logo" ></a>
               </div>
             <nav class="menu-nav-container">
                 <ul>
-                    <a href="/index.html"> <li>Inicio</li></a>
                     <a href="#actividades"> <li>Actividades</li></a>
-                    <a href="#instalaciones"> <li>Instalaciones</li></a>
+                    <a href="#beneficios"> <li>Beneficios</li></a>
                     <a href="#planes"> <li>Planes</li></a>
+                    <a href="#about"> <li>Sobre Nosotros</li></a>
+                  <!--   <a href="./blog.html"> <li>Blog</li></a> -->
                     <a href="#contacto"> <li>Contacto</li></a>
                 </ul>
              
@@ -67,21 +71,79 @@
         </div>
     </header>
     <section class="hero">
-      
-            <div class="hero-container">
-                <img class="img-desktop" src="/images/Frame 2.webp" width="100%" height="auto" alt="hero-desktop" >
-                <img class="img-mobile" src="/images/Frame 3.webp" width="100%" height="auto" alt="hero-mobile">
-               
-               <button> <a href="#contacto"> INSCRIBITE AHORA</button></a>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class=" hero-container carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-desktop" src="./images/motivated-fitness-girl-punches-air-shouts-doing-boxing-moves-fighting-sportsbra-workout-gym-standing-white-background.webp" class="d-block w-100" alt="...">
+                <img class="img-mobile" src="/images/El cambio comienza HOY.png" width="auto" height="100%" alt="hero-mobile">
+
+
+
+
+
+    <div class="centrado" >
+        <h1>El cambio comienza hoy</h1>
+
+        </div>
+
+        <a href="https://wa.link/kfhdop" target="_blank">   <button class="centrado-btn" type="submit">Mas info </button> </a>
+   
+
               </div>
+           
+        <!--       <div class="carousel-item">
+                <img  class="img-desktop" src="./images/Frame 2.webp" class="d-block w-100" alt="...">
+                <img class="img-mobile" src="/images/Frame 3.webp" width="100%" height="auto" alt="hero-mobile">
+                
+              </div> -->
+            </div>
+          </div>
+      
         
         
     </section>
 
-   
-    
-    <section class="actividades" id="actividades">
+    <section class="instalaciones " id="beneficios">
+        <h2>BENEFICIOS</h2>
+        
+
+        <div class="container-instalaciones " >
+
+            <div class="flex-column" >
+                <li>
+                <img src="/images/icons/8213.jpg"  width="150px" style="border-radius: 20px;"  alt="app-celu">    
+                <h3>duchas</h3></li>
+            
+            </div>
+            <div class="flex-column" >
+                <li>
+                <img src="/images/icons/Bottle of water-bro.png"  width="150px" style="border-radius: 20px;" alt="app-celu">    
+               
+                    <h3>punto break</h3>
+                </li>
+                </div>
+               
+            <div class="flex-column" >
+                <li>
+                <img src="/images/icons/Mobile-rafiki.png"  width="180px" style="border-radius: 20px;" alt="app-celu">    
+                    
+                    <h3>App de autogestion</h3>
+                </li>
+                </div>
+                <div class="flex-column" >
+                    <li>
+                    <img src="/images/icons/toilets_1381986.png"  width="100px" style="border-radius: 8px;"" alt="app-celu">    
+            
+                        <h3>Baños y cambiadores</h3>
+                    </li>
+                    </div>
+
+        </div>
+
+    </section>
+   <section class="actividades" id="actividades">
         <h2>actividades</h2>
+        <p>Disfruta de nuestras clases</p>
 
         <div>
         <a href="https://wa.link/kfhdop" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
@@ -91,17 +153,17 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/acrobat.webp" width="60%" height="auto" alt="pilates-aereo" >  
-                            <h3>pilates aéreo</h3>
+                            <img src="/images/icons/4977453.svg" width="90%" height="auto" alt="zumba" >  
+                            <h3>zumba</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
                                 </button>
                                 <ul class="dropdown-menu dropup">
-                                    <li>  <h3 class="dropdown-header">Pilates Aéreo</h3></li>
-                                    <li> 1. Mejora de la fuerza y ​​flexibilidad.</li>
-                                    <li>2. Aumento de la estabilidad corporal.</li>
-                                    <li>3. Estimulación de la creatividad motora.</li>
-                                    <li>4. Promoción de la consciencia corporal.</li>
+                                    <li>  <h3 class="dropdown-header">Zumba</h3></li>
+                                    <li> 1. Quema de calorías.</li>
+                                    <li>2. Mejora la salud cardiovascular.</li>
+                                    <li>3. Fortalecimiento muscular.</li>
+                                    <li>4. Reducción del estrés.</li>
                                 </ul>
                         </div>
                    
@@ -113,7 +175,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/pilates.webp" width="60%" height="auto" alt="pilates" >  
+                            <img src="/images/icons/9797547.jpg" width="90%" height="auto" alt="pilates" >  
                             <h3>pilates reformer</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
@@ -133,7 +195,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front dropdown-center">
-                            <img src="/images/icons/pilates-tower.webp" width="60%" height="auto" alt="pilates-studio">  
+                            <img src="/images/icons/pilates studio vector.png" width="80%" height="auto" alt="pilates-studio">  
                             <h3>pilates studio</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
@@ -152,7 +214,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front dropdown-center">
-                            <img src="/images/icons/push-ups.webp" width="60%" height="auto" alt="funcional">  
+                            <img src="/images/icons/funcional.svg" width="80%" height="auto" alt="funcional">  
                             <h3>funcional</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             + INFO
@@ -173,7 +235,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/weightlifting (1).webp" width="60%" height="auto" alt="cross-trainning" >  
+                            <img src="/images/icons/Coach-pana.png" width="80%" height="auto" alt="cross-trainning" >  
                             <h3>cross training</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
@@ -193,13 +255,13 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/lunges.webp" width="60%" height="auto" alt="gap" >  
+                            <img src="/images/icons/Workout-rafiki.png" width="80%" height="auto" alt="gap" >  
                             <h3>gap</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
                                 </button>
                                 <ul class="dropdown-menu dropup">
-                                    <li>  <h3 class="dropdown-header">GAP - Beneficios</h3></li>
+                                    <li>  <h3 class="dropdown-header">GAP - + INFO</h3></li>
                                     <li>1. Fortalecimiento de glúteos, abdomen y piernas.</li>
                                     <li>2. Mejora de la postura corporal.</li>
                                     <li>3. Aumento de la estabilidad central.</li>
@@ -212,7 +274,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/trampoline.webp" width="60%" height="auto" alt="jumping-fitness">  
+                            <img src="/images/icons/jumping fitness.svg" width="80%" height="auto" alt="jumping-fitness">  
                             <h3>jumping fitness</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
@@ -231,7 +293,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/body-pump.webp" width="60%" height="auto" alt="body-pump" >  
+                            <img src="/images/icons/Personal Trainer-amico.png" width="80%" height="auto" alt="body-pump" >  
                             <h3>body pump</h3>
                             <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 + INFO
@@ -248,10 +310,10 @@
                 </div>
             </div>          
 
-            <div class="flip-card">
+            <!-- <div class="flip-card">
                 <div class="flip-card-inner flex-column">
                         <div class="flip-card-front">
-                            <img src="/images/icons/yoga.webp" width="60%" height="auto" alt="hipopresivos">  
+                            <img src="/images/icons/Yoga practice-bro.png" width="80%" height="auto" alt="hipopresivos">  
                        
                             <h3>hipopresivos</h3>
                             <h3>stretching</h3>
@@ -268,142 +330,122 @@
 
                         </div>
                       
-                </div>
+                </div> -->
             </div>  
 
 
         </div>
 
-    </section>
+   
+   
+</section>
 
-    <section class="galeria-clases container">
+  <section class="galeria-clases container">
        
-        <div class="slideshow-container slideshow-desktop ">
-          <div class="mySlides1 ">
-            <img class="container" src="/images/galeria/desktop/1.webp" style="width:100%" height="auto" alt="clase-funcional">
-          </div>
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/3.webp" style="width:100%"  height="auto" alt="clase-funcional">
-          </div>
-        
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/4.webp" style="width:100%" height="auto" alt="pilates">
-          </div>
-        
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/5.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-        
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/6.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-           <div class="mySlides1">
-            <img src="/images/galeria/desktop/7.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/8.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/9.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-          <div class="mySlides1">
-            <img src="/images/galeria/desktop/10.webp" style="width:100%" height="auto" alt="gimnasio">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-        </div>
-        <div class="slideshow-container slideshow-mobile container">
-           
-          
+        <h2>Ultimas Novedades</h3>
+        <div class="ig-grid">
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cw-qkFPJeyc/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/Cw-qkFPJeyc/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/Cw-qkFPJeyc/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Punto FIT | Punto PILATES | GIMNASIO (@puntofit_puntopilates)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>  
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cwp4H5AJVH-/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Cwp4H5AJVH-/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Cwp4H5AJVH-/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Punto FIT | Punto PILATES | GIMNASIO (@puntofit_puntopilates)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CxqaJQeLf6a/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CxqaJQeLf6a/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CxqaJQeLf6a/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Punto FIT | Punto PILATES | GIMNASIO (@puntofit_puntopilates)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
 
-          
-          </div>
-    </section>
-    <section class="instalaciones" id="instalaciones">
-        <h2>instalaciones</h2>
+</div>
+</section> 
 
-        <div class="container-instalaciones" >
 
-            <div class="flex-column" >
-            <img src="/images/icons/shower.webp"  width="60%" height="auto" alt="duchas">    
-                
-                <h3>duchas</h3>
-            
-            </div>
-            <div class="flex-column" >
-                <img src="/images/icons/gym (2).webp" width="60%"  height="auto" alt="punto-break" >    
-                    
-                    <h3>punto break</h3>
-                
-                </div>
-               
-            <div class="flex-column" >
-                <img src="/images/icons/plan.webp"  width="60%" height="auto" alt="asesoramiento-nutricional">    
-                    
-                    <h3>asesoramiento Nutricional</h3>
-                
-                </div>
-                <div class="flex-column" >
-                    <img src="/images/icons/protein.webp"  width="60%" height="auto" alt="proteinas" >    
-                        
-                        <h3>sumplementos nutricionales</h3>
-                    
-                    </div>
+    
 
-        </div>
-
-    </section>
-
-    <article class="planes" id="planes">
-   <h2>planes</h2>
+    <article class="planes container" id="planes">
+   <h2>planes de entrenamiento</h2>
         <div class="planes-container">
-            <div class="card card1">
+            <div class="card card2">
            <h3>Basico</h3>
            <h2> <hr> PUNTO FIT </h2>
-           <h4>$4.000</h4>
+           <h4>$7.000</h4>
            <hr>
            <p>4 CLASES AL MES</p>
-           <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+           <div class="card card2">
+            <h3>Basico</h3>
+            <h2> <hr> PUNTO Pilates </h2>
+            <h4>$8.000</h4>
+            <hr>
+            <p>4 CLASES AL MES</p>
+            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+          </div>
          </div>
+         
           <div class="card card2">
            <h3> PRE-INTERMEDIO</h3>
            <h2> <hr> PUNTO FIT </h2> 
-           <h4>$4.500</h4>
+           <h4>$7.500</h4>
           <hr>
            <p>8 CLASES AL MES</p>
-           <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+           <div class="card card2">
+            <h3> PRE-INTERMEDIO</h3>
+            <h2> <hr> PUNTO PILATES </h2> 
+            <h4>$9.000</h4>
+           <hr>
+            <p>8 CLASES AL MES</p>
+            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+          </div>
          </div>
-         <div class="card card3">
+         <div class="card card2">
            <h3>INTERMEDIO</h3>
            <h2> <hr> PUNTO FIT  </h2>
-           <h4>$5.000</h4>
+           <h4>$8.000</h4>
            <hr>
            <p>12 CLASES AL MES</p>
-           <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+           <div class="card card2">
+            <h3> INTERMEDIO</h3>
+            <h2> <hr> PUNTO PILATES </h2> 
+            <h4>$10.000</h4>
+           <hr>
+            <p>12 CLASES AL MES</p>
+            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+          </div>
         </div>
         <div class="card card4">
             <h3>PRO</h3>
             <h2><hr> PUNTO FIT </h2>
-            <h4>$5.500</h4>
+            <h4>$8.500</h4>
             <hr>
             <p>16 CLASES AL MES</p>
-            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+            <div class="card card2">
+                <h3> PRO</h3>
+                <h2> <hr> PUNTO PILATES </h2> 
+                <h4>$11.000</h4>
+               <hr>
+                <p>16 CLASES AL MES</p>
+                <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+              </div>
          </div>
-         <div class="card card5">
+         <div class="card card2">
             <h3>AVANZADO</h3>
             <h2><hr> PUNTO FIT </h2>
-            <h4>$6.000</h4>
+            <h4>$9.000</h4>
             <hr>
             <p>20 CLASES AL MES</p>
-            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+            <div class="card card2">
+                <h3> AVANZADO</h3>
+                <h2> <hr> PUNTO PILATES </h2> 
+                <h4>$12.000</h4>
+               <hr>
+                <p>20 CLASES AL MES</p>
+                <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+              </div>
          </div>
          <div class="card card4">
             <h3>FREE PASS</h3>
             <h2><hr> PUNTO FIT </h2>
-            <h4>$7.000</h4>
+            <h4>$10.000</h4>
             <hr>
             <p>CLASES ILIMITADAS</p>
-            <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+            <div class="card card2">
+                <h3> INSCRIPCION</h3>
+                <h4>$4.000</h4>
+               <hr>
+                <p>Clase de prueba pilates: $4.000</p>
+                <a href="https://wa.link/cr8m6o" target="_blank"> + INFO</a>
+              </div>
          </div>
        </div>
      
@@ -412,37 +454,29 @@
     </article>
 
 
-    <section class="beneficios" id="beneficios">
-        <h2>beneficios</h2>
-    <div class="container-beneficios" >
+    <section class="beneficios container" id="+ INFO">
+   
 
-        <div class="flex-column" >
-            <img src="/images/icons/calendar.webp"  width="50%" height="auto" alt="calendario" >    
-                
-                <h3>programa tu entrenamiento</h3>
-                <p>Elegi la clase que mas te gusta, utilizando "Créditos Punto Fit"</p>
-                <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="programa tu entrenamiento" data-bs-content="Utiliza tu credito como mas te guste entrenar">+ INFO</button>
-            </div>
-
-    <div class="flex-column" >
-        <img src="/images/icons/stationary-bike (1).webp"  width="50%" height="auto" alt="bic-fija-icono" >    
+        <div class="galeria-clases">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C5i2T3OpJS4/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/C5i2T3OpJS4/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/reel/C5i2T3OpJS4/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Punto FIT | Punto PILATES | GIMNASIO (@puntofit_puntopilates)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+              </div>
+            <!-- 
+              <div class="mySlides1">
+                <img src="/images/galeria/desktop/3.webp" style="width:100%"  height="auto" alt="clase-funcional">
+              </div>
+            </div> -->
+        <div id="about" class="about" >
             
-            <h3>uso libre de bicicleta fija</h3>
-            <p>Acceso ilimitado con el pago de tu memebresia.</p> <br>
-            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Uso libre de bicicleta fija" data-bs-content="Incluido con el pago de tu cuota, reserva con anticipacion">+ INFO</button>
+            <h2>Somos Punto FIT </h2>
+            <p>En PUNTO FIT, nos dedicamos a potenciar tu bienestar integral. Ofrecemos una diversidad de clases de entrenamiento dirigidas por instructores altamente calificados y nutricionistas especializados. Más que un gimnasio, somos tu aliado en la búsqueda de un estilo de vida saludable y vibrante. Nuestra misión es inspirarte a alcanzar tu máximo potencial, no solo físico, sino también mental, psicológico y social. Únete a nosotros en el camino hacia una versión más fuerte, saludable y plena de ti mismo.</p> <br>
+            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Uso libre de bicicleta fija" data-bs-content="Incluido con el pago de tu cuota, reserva con anticipacion">Vení a conocernos</button>
 
         </div>
-        <div class="flex-column" >
-            <img src="/images/icons/app-celu.webp"  width="50%" height="auto" alt="app-celu">    
-                
-                <h3>autogestion de tus clases</h3>
-                <p> Podés cancelar y reprogramar tus clases en el momento que lo necesites desde tu celular.</p>
-                <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Reserva tus clases" data-bs-content="Flexibilidad en tus clases con nuestra App">+ INFO</button>
-            </div>
-        </div> 
+      
+      
     </section>
-
-    <section class="galeria flex-column">
+   
+      <!--   <section class="galeria flex-column">
     <section class="imc "  >
     
       <form class="imc-container" id="formulario" onsubmit="calcularIMC(); return false">
@@ -458,7 +492,7 @@
         <input type="text" id="peso" required="required" placeholder="PESO  ACTUAL en kg">
         <br>
         <button type="submit" type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Calcular IMC</button>
-     <!--    <p id="resultado"></p> -->
+        <p id="resultado"></p>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -480,7 +514,7 @@
 
     </section>
 
-    </section>
+    </section> -->
   
     <section class="contacto">
          
@@ -488,11 +522,12 @@
         <div class="contacto-container" id="contacto">
 
             
-            <div class="contacto-container-form">
+            <div class="contacto-container-form container">
                 <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.339742597853!2d-68.8211033848151!3d-32.88918458093828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090ba3431e79%3A0x8775a2a8da170351!2sPunto%20Fit_Punto%20Pilates!5e0!3m2!1ses-419!2sau!4v1690261173180!5m2!1ses-419!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <h3>Godoy Cruz 984-San José-Guaymallén-Mendoza</h3>
-            </div>
+             <!--    <h3>Godoy Cruz 984-San José-Gllén-Mendoza</h3>
+                <h3>Godoy Cruz 1004-San José-Gllén-Mendoza (anexo)</h3> -->
+                </div>
                 <form  data-netlify="true" action="https://formsubmit.co/nutricionpilates2018@gmail.com" method="POST">
                         <label for="text" class="form-text-label"></label>
                         <input type="text" class="" name="text" access="false" id="text" placeholder="NOMBRE">
@@ -502,7 +537,7 @@
                     </div>
                     <div class="form-textarea form-group field-textarea">
                         <label for="textarea" class="form-textarea-label"></label>
-                        <textarea type="textarea" class="form-text-area" name="textarea" access="false" id="textarea" placeholder="DEJANOS TU CONSULTA..." ></textarea>
+                        <textarea type="textarea" class="form-text-area" name="textarea" access="false" id="textarea" placeholder="Suscribite para enterarte de nuestras promos y novedades" ></textarea>
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_subject" value="Consulta desde pagina web!">
                         <input type="hidden" name="_next" value="https://punto-fit.netlify.app/">
@@ -511,9 +546,9 @@
                         <button type="submit" class=" " name="button" access="false"  id="button">Enviar</button>
                     </div>
                 </form>
-                <div class="form-logo">
+                <!-- <div class="form-logo">
                     <img  > <img src="/images/logo oval.webp" alt="logo-punto-fit" width="50px" height="50px"> 
-                </div>
+                </div> -->
             </div>
             
         </div> 
@@ -522,7 +557,7 @@
             
                     <div class="row  justify-content-center align-items-center">
                         <li class="text-center">Lunes a Viernes</li>
-                        <div class="col-xl-4 col-sm-6 text-center " >  <h3>Recepcion</h3>  
+                        <div class="col-xl-4 col-sm-6 text-center row " >  <h3>Recepcion</h3>  
                           
                         
                         
@@ -543,7 +578,7 @@
     </section>
 
 
-    <!-- <section class="sitemap">
+    <section class="sitemap">
 
 
         <article>
@@ -573,10 +608,10 @@
                 <a href="#facebook"> <li>Facebook</li></a>
             </ul>    
         </article>
-    </section> -->
+    </section>
     <section class="footer">
         <img src="/images/logo oval.webp"  width="50px" height="auto" alt="logo-punto-fit" >
-        <p>Derechos Reservados Punto Fit 2023</p>
+        <p>Derechos Reservados Punto Fit 2024</p>
 
         
     </section>

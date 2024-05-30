@@ -23,8 +23,8 @@ gap: 50px;
 .header { 
 
     grid-area: menu;
-    background: $yellow;
-
+/*     background: $yellow;
+ */
 }
 
 .hero { 
@@ -37,14 +37,15 @@ gap: 50px;
     grid-area: horarios; /* background: url(/images/bg-yellow.webp); */
     height: auto; 
     margin-top: 30px; 
+ 
         .row{
             padding: 10px;
             border-radius: 24px 24px 24px 24px;
             -webkit-border-radius: 24px 24px 24px 24px;
             -moz-border-radius: 24px 24px 24px 24px;
-            background-color: $blue;
+          
 
-    li { color: $yellow; pointer-events: none; }
+    li {  pointer-events: none;    text-transform: lowercase;}
     h2 {color: white;}
   }  }
 
@@ -72,20 +73,19 @@ gap: 50px;
     
 }
 .imc { 
-    grid-area: imc;
+    grid-area:imc;
 
     .imc-container { display: flex;flex-direction: column; align-items: center;}
 }
 .contacto{
     grid-area: contacto;
-    background: $blue;
-    padding: 20px;
+/*     background: $blue;
+ */    padding: 20px;
 }
 .sitemap{
-    grid-area: sitemap;
-    background: url(/images/bg-yellow.webp)
+    grid-area:sitemap;
 }
 .footer{
     grid-area: footer;
-    background: $yellow;
+   /*  background: $yellow; */
 }
