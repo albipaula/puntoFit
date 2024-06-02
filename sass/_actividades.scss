@@ -19,6 +19,21 @@ justify-content: space-around;
 align-items: center;
 
 
+
+li { 
+  line-height: 0.5; 
+   color: white;
+   transition: 0.5s;
+   padding: 10px;
+   box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
+   border-radius: 24px 24px 24px 24px;
+   -webkit-border-radius: 24px 24px 24px 24px;
+   -moz-border-radius: 24px 24px 24px 24px;
+  }
+
+
 .btn { 
   background-color: $yellow; 
   border: $yellow;}
@@ -64,18 +79,4 @@ div {
     } 
 
 
-
-        li { 
-           line-height: 0.5; 
-            color: white;
-            transition: 0.5s;
-            padding: 10px;
-            box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 10px 10px 49px 0px rgba(0,0,0,0.75);
-            border-radius: 24px 24px 24px 24px;
-            -webkit-border-radius: 24px 24px 24px 24px;
-            -moz-border-radius: 24px 24px 24px 24px;
-           }
-      }
     

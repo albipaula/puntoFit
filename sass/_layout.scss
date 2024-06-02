@@ -6,11 +6,13 @@ grid-template-rows:   repeat(13,auto);
 grid-template-areas:    
     'menu          menu          menu          menu          menu          menu          menu '
     'hero          hero          hero          hero          hero          hero          hero'
+    'instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones'
+
     'actividades   actividades   actividades   actividades   actividades   actividades   actividades '  
     'galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases galeria-clases '
-    'instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones instalaciones'
     'planes planes planes planes planes planes planes' 
     'beneficios    beneficios    beneficios    beneficios    beneficios    beneficios    beneficios'
+
     'galeria       galeria       galeria       galeria        galeria        galeria        galeria'
     'imc           imc           imc           imc             imc          imc           imc      '
     'contacto      contacto      contacto      contacto      contacto      contacto      contacto'
@@ -48,25 +50,26 @@ gap: 50px;
     li {  pointer-events: none;    text-transform: lowercase;}
     h2 {color: white;}
   }  }
+  .beneficios {
+    grid-area: beneficios;
 
+    
+}
 .actividades { 
     grid-area: actividades;
   
 
 }
-.galeria-clases { grid-area: galeria-clases;}
+.galeria-clases {
+     grid-area: galeria-clases;
+    }
 .instalaciones { 
     grid-area: instalaciones;
 }
-
 .planes { 
     grid-area: planes;
 }
-.beneficios {
-    grid-area: beneficios;
 
-    
-}
 .galeria { 
 
     grid-area: galeria;
@@ -75,7 +78,10 @@ gap: 50px;
 .imc { 
     grid-area:imc;
 
-    .imc-container { display: flex;flex-direction: column; align-items: center;}
+    .imc-container { 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;}
 }
 .contacto{
     grid-area: contacto;
