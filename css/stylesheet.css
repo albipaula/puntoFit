@@ -312,12 +312,14 @@ li:hover {
     top: 93%;
     left: 50%;
     padding: 5px;
+    display: none;
   }
   .hero .img-desktop {
     display: none;
   }
   .hero .img-mobile {
     display: block;
+    opacity: 100;
   }
 }
 .actividades {
