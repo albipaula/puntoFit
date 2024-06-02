@@ -53,15 +53,23 @@ div {
     height: auto;
 }
 
-p { font-size: 32px; line-height: 2rem;}
+p { 
+    font-size: 32px; 
+    line-height: 2rem;
+}
 
 }
 
-.btn { background-color: $blue; border: $yellow;}
+.btn { 
+    background-color: $blue; 
+    border: $yellow;}
 
 }
 
 @media only screen and (max-width: 500px) { 
-.beneficios { flex-wrap: wrap;}
+.beneficios { flex-wrap: wrap;
+
+
+}
 
 } 

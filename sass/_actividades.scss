@@ -14,7 +14,7 @@ flex-wrap: wrap;
 gap: 10px;
 /* background:url(/images/bg-yellow.webp);
  */    
-width: 90%;
+width: 100%;
 justify-content: space-around;
 align-items: center;
 
@@ -43,15 +43,8 @@ div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    /* background: rgba(242, 239, 239, 0.762); */
-  /*   box-shadow: 5px 5px 5px 0px rgba(109, 103, 103, 0.75);
-   
-    border-radius: 24px 24px 24px 24px;
-    -webkit-border-radius: 24px 24px 24px 24px;
-    -moz-border-radius: 24px 24px 24px 24px; */
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: auto;
     color: white;
    
 
@@ -75,6 +68,7 @@ div {
     .container-actividades div { 
       width: 250px;
     }
+
 
     } 
 
